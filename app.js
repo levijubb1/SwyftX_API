@@ -34,9 +34,6 @@ async function getBalance() {
       }
     })
     const data = await res.json()
-    console.log(res)
-    console.log('----------------------------------------')
-    console.log(data)
   } catch (error) {
     console.log(error)
   }
